@@ -20,12 +20,13 @@ code {
 /* Time track css */
 .time-track {
   width: 1590px;
-  position: sticky;
-  top: 0;
   background: #ffffff;
+  position: sticky;
   z-index: 3;
+  top: 0;
   border-bottom: 1px solid black;
 }
+
 .time-track > .time-track-header {
   width: 150px;
   display: inline-block;

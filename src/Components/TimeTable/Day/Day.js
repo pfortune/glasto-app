@@ -1,6 +1,5 @@
 import React from "react";
 import ReactTooltip from "react-tooltip";
-
 import Stage from "../Stage/Stage";
 import Timetrack from "../Timetrack/Timetrack";
 
@@ -42,11 +41,12 @@ class Day extends React.Component {
       );
     }
     return (
-      <div>
-        <ReactTooltip />
-        <Timetrack />
-        {stages}
-      </div>
+        <div>
+          <ReactTooltip />
+          <Timetrack />
+
+          {stages}
+        </div>
     );
   }
 }

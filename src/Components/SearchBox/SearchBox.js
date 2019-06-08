@@ -38,7 +38,7 @@ class SearchBox extends React.Component {
 
   render() {
     return (
-      <React.Fragment>
+      <div>
         <input
           type="text"
           placeholder="Search..."
@@ -57,7 +57,7 @@ class SearchBox extends React.Component {
           search={this.state.search}
           onlyStarred={this.state.onlyStarred}
         />
-      </React.Fragment>
+      </div>
     );
   }
 }
