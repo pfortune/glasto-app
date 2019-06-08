@@ -2,7 +2,6 @@ import React from "react";
 import TimeTable from "../TimeTable/TimeTable";
 import unlitStar from "./iconfinder_star_216411.png";
 import litStar from "./iconfinder_star_285661.png";
-import "./SearchBox.css";
 
 class SearchBox extends React.Component {
   constructor(props) {

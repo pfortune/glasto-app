@@ -1,6 +1,4 @@
 import React from 'react';
-import './stage.css';
-
 import Act from '../Act/Act';
 
 class Stage extends React.Component {

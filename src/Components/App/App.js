@@ -1,6 +1,5 @@
 import React from "react";
 import SearchBox from "../SearchBox/SearchBox";
-import "./App.css";
 import data from "../../Static/glasto-data";
 
 class App extends React.Component {
